@@ -7,10 +7,10 @@
     # Necessary Variables for creating/provisioning the EC2 Instance
     vars:
       instance_type: t1.micro
-      security_group: websg # Change the security group name here
-      image: ami-98aa1cf0 # Change the AMI, from which you want to launch the server
+      security_group: default # Change the security group name here
+      image: ami-1853ac65 # Change the AMI, from which you want to launch the server
       region: us-east-1 # Change the Region
-      keypair: ansible # Change the keypair name
+      keypair: AwsKey_USNV # Change the keypair name
       count: 1
 
     # Task that will be used to Launch/Create an EC2 Instance
